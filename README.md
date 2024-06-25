@@ -17,6 +17,9 @@ Stress tests push the system beyond its normal operational capacity, often to th
 k6 run --out json=results.json stress-test.js
 
 results.json can be imported by other tools. K6 also supports stream to an external service.
+More about Results Output:
+
+https://grafana.com/docs/k6/latest/get-started/results-output/
 
 
 ### 2. Results:
