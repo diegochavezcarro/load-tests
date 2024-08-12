@@ -14,7 +14,7 @@ Stress tests push the system beyond its normal operational capacity, often to th
 
 ### 1. Execute the load test
 
-k6 run --out json=results.json stress-test.js
+k6 run --out json=results.json load-test.js
 
 results.json can be imported by other tools. K6 also supports stream to an external service.
 More about Results Output:
